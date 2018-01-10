@@ -1,10 +1,12 @@
 # MultiClassDataLayer
+
 These code follow the data providers in papers:
-  <Learning a Metric Embedding for Face Recognition using the Multibatch Method>
+  [Learning a Metric Embedding for Face Recognition using the Multibatch Method]
   and
-  <Improved Deep Metric Learning with Multi-class N-pair Loss Objective>
+  [Improved Deep Metric Learning with Multi-class N-pair Loss Objective]
   
-Usage:  
+Usage:
+```
 name: "GoogleNet"
 layer {
     name: "data_mb"
@@ -38,3 +40,4 @@ layer {
         rand_identity: true
     }
 }
+```
